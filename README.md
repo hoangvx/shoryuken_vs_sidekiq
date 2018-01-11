@@ -41,3 +41,9 @@ bundle exec rake shoryuken:polulate
 # worker execute
 BUCKET_URL=[pustreq shoryuken bucket url] bundle exec shoryuken -q default -r ./app/workers/shoryuken_worker.rb
 ```
+
+
+
+### reference site
+
+http://www.pablocantero.com/blog/2015/03/14/sidekiq-redis-vs-shoryuken-aws-sqs/
